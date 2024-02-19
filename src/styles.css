@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.App {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.bgGrey {
+  background-color: grey;
+}
+
+.imglicit {
+  min-height: 300px;
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.scrolled {
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.green {
+  background-color: rgba(82, 185, 123, 0.349);
+}
+.blue {
+  background-color: rgba(2, 124, 255, 0.349);
+}
+.orange {
+  background-color: rgba(255, 175, 2, 0.311);
+}
+.grey {
+  background-color: rgba(143, 143, 143, 0.224);
+}
+
+.container-center {
+  z-index: 2; /* Set a higher z-index for the center column */
+  position: relative;
+}
+
+.image-column {
+  position: relative;
+  z-index: 1; /* Set a lower z-index for the image columns */
+}
